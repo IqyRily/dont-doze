@@ -9,12 +9,12 @@
 <div align="center">
 
 [![Platform](https://img.shields.io/badge/platform-macOS%2012%2B-lightgrey.svg)](https://www.apple.com/macos/)
-[![Architecture](https://img.shields.io/badge/arch-Universal%20(x86__64%20%7C%20arm64)-blue.svg)](https://github.com/IqyRily/dont-doze)
+[![Architecture](https://img.shields.io/badge/arch-Universal%20(x86__64%20%7C%20arm64)-blue.svg)](https://github.com/IqyRily/DontDoze)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 <br>
 
-[![Download Latest Release](https://img.shields.io/badge/Download-DontDoze--macOS.zip-2ea44f?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/IqyRily/dont-doze/releases/latest/download/DontDoze-macOS.zip)
+[![Download Latest Release](https://img.shields.io/badge/Download-DontDoze--macOS.zip-2ea44f?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/IqyRily/DontDoze/releases/latest/download/DontDoze-macOS.zip)
 
 </div>
 
@@ -57,14 +57,14 @@ macOS's built-in `caffeinate` prevents idle and display sleep, but it cannot sto
 ### Installation
 
 #### Option 1: Download Prebuilt App
-1. Download `DontDoze-macOS.zip` from [Releases](https://github.com/IqyRily/dont-doze/releases).
+1. Download `DontDoze-macOS.zip` from [Releases](https://github.com/IqyRily/DontDoze/releases).
 2. Unzip and move `DontDoze.app` to `/Applications`.
 3. Open `DontDoze.app` (if macOS warns about an unidentified developer, right-click → **Open**).
 
 #### Option 2: Build from Source
 ```bash
-git clone https://github.com/IqyRily/dont-doze.git
-cd dont-doze
+git clone https://github.com/IqyRily/DontDoze.git
+cd DontDoze
 chmod +x build.sh
 ./build.sh
 open DontDoze.app
